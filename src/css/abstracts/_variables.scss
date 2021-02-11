@@ -1,0 +1,23 @@
+/* Fonts */
+$font-principal: 'Open Sans',
+sans-serif;
+
+/* Colors */
+$color-primary: rgb(20, 20, 20);
+$color-secondary: #1db954;
+$color-white: #fff;
+$color-dark: #000;
+
+
+/* Breakpoints */
+$small: 27.5em; // 400px
+/*-------- Mobile devices*/
+$s-medium: 35.625em; // 570px
+/*-------- Tablet devices*/
+$medium: 48em; // 768px
+$large: 60em; // 960px
+$x-large: 66.25em; // 1060px
+/*-------- Desktop devices*/
+$xx-large: 78.125em; // 1250px
+$xxx-large: 90em; // 1440px
+$high-quality: 106.25em; // 1700px

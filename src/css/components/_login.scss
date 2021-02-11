@@ -1,0 +1,39 @@
+    .login {
+        align-items: center;
+        display: grid;
+        height: 100vh;
+        justify-items: center;
+
+        &__debut {
+            animation: moveInTop 1s ease;
+            align-items: center;
+            display: flex;
+            flex-flow: column-reverse wrap;
+            font-size: 3.8rem;
+
+            @include from($large) {
+                flex-flow: row-reverse wrap;
+                font-size: 5rem;
+            }
+        }
+
+        &__heading {
+            font-size: inherit;
+            font-weight: 700;
+            margin: .5rem 0 0 0;
+
+            @include from($large) {
+                margin: 0 0 0 1rem;
+            }
+        }
+
+        &__logo {
+            height: 7rem;
+            width: 7rem;
+
+            @include from($large) {
+                height: 10rem;
+                width: 10rem;
+            }
+        }
+    }

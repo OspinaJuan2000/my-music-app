@@ -1,0 +1,5 @@
+    .github-pet {
+        &:hover &__tail {
+            animation: moveFastTopBottom 560ms ease;
+        }
+    }
